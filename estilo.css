@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#informacion {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+#imagen {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#nombre {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#datos {
+  list-style: none;
+  padding: 0;
+}
+
+#buscarPokemon {
+  margin-top: 20px;
+  width: 80%;
+}
+
+#nombrePokemon {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#buscar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
